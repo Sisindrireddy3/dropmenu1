@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    box-sizing: border-box;
+}
+.drpbtn :hover , .drpbtn:focus{
+    background-color: rgb(204, 204, 30);
+    
+}
+.menu button{
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.menu{
+    margin-left: 500px;
+    position: relative;
+    display: inline-block; 
+
+}
+.menu a:hover {background-color: #ddd;}
+.show {display: block;}
+.content{
+    display: none;
+    position: absolute;
+    background-color: aquamarine;
+    overflow: auto;
+    width: 300px;
+    z-index: 1;
+    a{
+        text-decoration: none;
+        display: block;
+    }
+}
+.drpbtn a:hover {background-color: red;}
+.show{display: block;}
